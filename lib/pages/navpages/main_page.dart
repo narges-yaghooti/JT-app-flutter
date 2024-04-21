@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:travel/main.dart';
 import 'package:travel/pages/navpages/bar_item_page.dart';
 import 'package:travel/pages/navpages/home_page.dart';
+import 'package:travel/pages/navpages/my_page.dart';
 import 'package:travel/pages/navpages/search_page.dart';
 
 class MainPage extends StatefulWidget {
@@ -16,7 +17,7 @@ class _MainPageState extends State<MainPage> {
     HomePage(),
     BarItemPage(),
     SearchPage(),
-    MyApp(),
+    MyPage(),
   ];
 
   int currentIndex = 0;
